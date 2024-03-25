@@ -1,0 +1,49 @@
+.breakout-container {
+  margin: 1rem;
+}
+
+.breakout-container p {
+  margin-bottom: 1rem;
+}
+
+.breakout-top {
+  display: flex;
+  gap: 1rem;
+}
+
+.breakout-imgs {
+  display: flex;
+}
+
+.breakout-imgs img {
+  height: 20rem;
+  width: 26rem;
+}
+
+.image {
+  height: 20rem;
+  width: 26rem;
+  background-color: gray;
+  padding: 0.2rem;
+  box-shadow: 2px 2px 4px 0 rgba(255, 255, 255, 0.5);
+}
+
+.gif {
+  height: 9rem;
+  width: 22rem;
+  background-color: gray;
+  padding: 0.2rem;
+  box-shadow: 2px 2px 4px 0 rgba(255, 255, 255, 0.5);
+}
+
+.gif img {
+  height: 9rem;
+  width: 22rem;
+}
+
+.gifs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,18 @@
+.loan-container {
+  margin: 1rem;
+}
+
+.loan-container p {
+  margin-bottom: 1rem;
+}
+
+.anuitate-imgs {
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+.anuitate-imgs img {
+  height: 25rem;
+  width: calc(50% - 0.5rem);
+}

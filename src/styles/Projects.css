@@ -1,0 +1,23 @@
+.projects-container {
+  margin: 2rem;
+  color: white;
+}
+
+.projects-container h3 {
+  color: #bc6ff1;
+}
+
+.projects-container li {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.projects-container li a {
+  color: white;
+  text-decoration: none;
+}
+
+.projects-container li a:hover {
+  text-decoration: underline;
+  color: #bc6ff1;
+}
