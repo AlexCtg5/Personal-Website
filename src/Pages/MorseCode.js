@@ -224,12 +224,6 @@ export default function MorseCode() {
               telegraphy.
             </p>
             <p>
-              <a href="https://en.wikipedia.org/wiki/Morse_code#/media/File:International_Morse_Code.svg">
-                Here
-              </a>{" "}
-              is a photo list with al the letters and digits in morse code{" "}
-            </p>
-            <p>
               You can read more about Morse code on{" "}
               <a href="https://en.wikipedia.org/wiki/Morse_code">wikipedia</a>
             </p>

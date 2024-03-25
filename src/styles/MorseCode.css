@@ -65,6 +65,11 @@
   font-size: 1rem;
   color: white;
   margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+#xyz {
+  margin-top: 1rem;
 }
 
 table th {
