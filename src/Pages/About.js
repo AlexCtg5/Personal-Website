@@ -56,7 +56,7 @@ export default function About() {
               <p>
                 I'm trying to enhance my programming skills, aiming to become
                 better at basketball, doing home workouts, playing The Witcher
-                3, and wanting to read interesting books.
+                3, and wanting to read more books.
               </p>
             </div>
             <div className="about-section">
