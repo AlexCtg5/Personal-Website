@@ -9,6 +9,7 @@ import "./styles/Projects.css";
 import "./styles/Breakout.css";
 import "./styles/Anuitate.css";
 import "./styles/DesktopApp.css";
+import "./styles/Binary.css";
 
 import App from "./App";
 

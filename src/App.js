@@ -8,6 +8,7 @@ import Resume from "./Pages/Resume";
 import Breakout from "./Pages/Breakout";
 import Anuitate from "./Pages/Anuitate";
 import DesktopApp from "./Pages/DesktopApp";
+import Binary from "./Pages/Binary";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contacts />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/home/decimal-binary" element={<Binary />} />
           <Route path="/home/morse-code" element={<MorseCode />} />
         </Routes>
       </BrowserRouter>

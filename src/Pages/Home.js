@@ -12,6 +12,12 @@ export default function Home() {
           </div>
           <h3>March 2024</h3>
           <Post
+            title={"decimal-binary"}
+            href={"/home/decimal-binary"}
+            date={"28-03-2024"}
+            img={"/images/binary.png"}
+          />
+          <Post
             img={"./images/morsecode.png"}
             title={"morse-code"}
             date={"20-03-2024"}
