@@ -40,7 +40,7 @@ export default function Binary() {
         <div className="binary-container">
           <div style={{ display: "flex", gap: "1rem" }}>
             <div>
-              <p className="binary-output">Decimal</p>
+              <h2 className="binary-output">Decimal</h2>
               <input
                 value={decimal}
                 onChange={handleDecimal}
@@ -48,7 +48,7 @@ export default function Binary() {
               ></input>
             </div>
             <div>
-              <p className="binary-output">Binary</p>
+              <h2 className="binary-output">Binary</h2>
               <input
                 value={binary}
                 type="number"
