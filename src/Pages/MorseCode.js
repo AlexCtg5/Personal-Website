@@ -163,7 +163,7 @@ export default function MorseCode() {
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
-        setCopied(true);
+        setCopied(!copied);
         setTimeout(() => setCopied(false), 1500);
       })
       .catch((error) => console.error("Copy failed: ", error));
