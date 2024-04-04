@@ -36,6 +36,8 @@
   background-color: transparent;
   border: white 0.01rem solid;
   cursor: pointer;
+  width: 4rem;
+  height: 1.5rem;
 }
 
 .copy-btn:hover {

@@ -156,16 +156,15 @@ export default function MorseCode() {
     return text;
   }
 
-  // eslint-disable-next-line no-unused-vars
   const [copied, setCopied] = useState(false);
 
   const copyText = () => {
-    const textToCopy = outputResult;
+    const textToCopy = outputResult.join(" ");
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
         setCopied(true);
-        setTimeout(() => setCopied(false), 1500); // Reset copied state after 1.5 seconds
+        setTimeout(() => setCopied(false), 1500);
       })
       .catch((error) => console.error("Copy failed: ", error));
   };

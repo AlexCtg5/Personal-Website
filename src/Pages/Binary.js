@@ -34,7 +34,7 @@ export default function Binary() {
       <div className="container">
         <Header />
         <h2 className="title">
-          <span className="span-title">&lt;</span> decimal to binary{" "}
+          <span className="span-title">&lt;</span> Decimal to Binary{" "}
           <span className="span-title">&gt;</span>
         </h2>
         <div className="binary-container">
